@@ -735,7 +735,7 @@ namespace Sitecore.ContentSearch.ElasticSearchProvider.Linq
 			var queryValue = ValueFormatter.FormatValueForIndexStorage(valueNode.Value);
 
 			//TODO: same as the HandleContains method... is there a better way to do this without wildcard queries?
-			return Query.Wildcard(fieldName, "*" + queryValue);
+			return Query.Wildcard(fieldName, queryValue.ToString());
 		}
 
 		protected string GetFormattedFieldName(BinaryNode node)

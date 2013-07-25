@@ -158,8 +158,6 @@ namespace Sitecore.ContentSearch.ElasticSearchProvider
 			
 			if (query.Filter != null)
 			{
-				//TODO: i would be amazed if this actually works... more likely need a way to make query.Filter a BaseFilter as opposed to BaseQuery
-				//update: this actually does work, and i am amazed, as expected.
 				descriptor.Filter(filterDescriptor => filterDescriptor.Query(q => query.Filter));
 			}
 
