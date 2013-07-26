@@ -1,6 +1,6 @@
 ﻿Sitecore 7 Elasticsearch Provider
 =================================
-
+ 
 Usage
 -----
 * Clone or Fork from Bitbucket
