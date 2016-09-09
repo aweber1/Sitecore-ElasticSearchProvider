@@ -3,7 +3,7 @@
  
 Usage
 -----
-* Clone or Fork from Bitbucket
+* Clone or Fork repo
 * Compile
 	* You will likely need to manually add references to Sitecore.Kernel, Sitecore.ContentSearch, Sitecore.ContentSearch.Linq
 * Copy or reference the compiled Sitecore.ContentSearch.ElasticSearchProvider.dll and /App_Config/Include/Sitecore.ContentSearch.ElasticSearch.config files to your solution
@@ -19,7 +19,7 @@ Known Issues
 A word of caution: as of this writing (07/26/2013), there are still some deal-breaking bugs to resolve. However, the majority of the search provider functionality is in place and operational (enough for you to test and play around with). This provider is still very much in beta form. Because challenging.
 
 See the Issues page for current known issues and bugs:
-https://bitbucket.org/aweber1/sitecore-elasticsearch-provider/issues?status=new&status=open
+https://github.com/aweber1/Sitecore-ElasticSearchProvider/issues
 
 Dependencies
 ------------
